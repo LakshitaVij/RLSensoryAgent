@@ -1,0 +1,23 @@
+{
+  "method": "numpy.default_rng(42).choice(sorted_ids, size=5, replace=False), integer-sorted ids",
+  "numpy_version": "2.2.4",
+  "train": [
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S9",
+    "S13",
+    "S14",
+    "S15",
+    "S16"
+  ],
+  "held_out": [
+    "S2",
+    "S8",
+    "S10",
+    "S11",
+    "S17"
+  ]
+}

@@ -1,0 +1,38 @@
+# WESAD data: never publish, download from the official source
+S[0-9]*/
+data/
+wesad_readme.pdf
+
+# models, runs, media (regenerate with the scripts)
+models/
+runs/
+audio/
+videos/
+
+# learning files, not part of Version 1
+lunarlander.py
+ppo.py
+RL/
+
+# per-person results: only the aggregate summary is public
+results/*
+!results/summary.md
+
+# internal planning docs
+docs/readme_briefing_for_main_claude.md
+docs/tomorrow_plan.md
+docs/website_plan.md
+docs/WESAD.code-workspace
+
+# environment and junk
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+*.pyc
+
+# her original draft of the README (README.md is the published copy)
+ReadMe for WESAD-PPO-V1.md
+
+# exports and archives
+*.zip

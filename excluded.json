@@ -1,0 +1,4 @@
+{
+  "excluded_from_use": ["S3"],
+  "reason": "Lakshita's decision (2026-10-07): do not use S3 as a data source. splits.json is left unchanged (frozen); this file overrides it for train use."
+}

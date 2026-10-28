@@ -1,0 +1,29 @@
+{
+  "frozen_on": "2026-10-23",
+  "note": "Fingerprints of the code and split files frozen before the one-time held-out run. A changed file means the freeze was broken: explain it in the write-up.",
+  "sha256": {
+    "wesad_ppo.py": "a0093935d7dce26d747cd31593eed3a36204771cf61421091884733425e28132",
+    "src/env.py": "f36171cf2d608e2127c192f33f928d7cfc32713c1ce50701a33c9e90f9789af5",
+    "src/effects.py": "8540b733eba6fae05d35e7ff89c506fd523d3895b259814cb574d7b2d5b5d16b",
+    "src/oracle.py": "383767f79067100a4dfdb11c89b4182d4af60ed44eb0f0994fbef8175430dbcd",
+    "src/variants.py": "4476f96c32b9f1f6232807175023b8575d428c7e6c6427cf30adfdb4df40a65d",
+    "src/eval_policy.py": "e8ed694cdaf3ecb76df5701461be9fffe1a447515af4fc2ab4012a9de75f408d",
+    "src/final_eval.py": "41779c62db6411cfccd421cbc4ee2b3ec24cebca3ab1c94dcefaedceaa84d27e",
+    "src/_prepare_heldout.py": "5790d225ba8cb00f7c20819398ee9918b705e0338ce37b45ede0d6bc778e4578",
+    "src/build_features.py": "3fc6df1bac55c98ea82f4c93753beef1c01156ce1559bbfc0f0233224ecdc6f8",
+    "src/export_subject.py": "757f356665150f094ae6c67c13bbfabbf708bbec851054b85627ea4032df1dea",
+    "src/convert.py": "076aed7babcfc705ff18953a8b44ca53b6d40849709e7d6667a75c121dbad4dc",
+    "splits.json": "f2136792177f30cfa4218ac318e239d00426ef88202a9fc46d13aa464dea132e",
+    "val_split.json": "e345f89f3fc1f5ec7045f8bd335458a79ed760d00a1f8c9fd09a58d485546b83",
+    "excluded.json": "81271b492eaa0b60e010713eb107ea195069bbddc594c4924c2277d1d64dc3ab"
+  },
+  "comment_only_edits": [
+    {
+      "file": "wesad_ppo.py",
+      "date": "2026-10-28",
+      "old_sha256": "4ed39f3f0d12f20a6f018e7d9849be7cc884dcce29814ca8a8d6afa7694713b9",
+      "new_sha256": "a0093935d7dce26d747cd31593eed3a36204771cf61421091884733425e28132",
+      "what": "comments and bare documentation strings only (CartPole references updated to the WESAD environment, observation size 19, 7 actions, mask explained, typos). Executable code verified identical by comparing the parsed syntax trees with comments and bare strings removed. The held-out result (2026-10-23) was produced by the code as it was before; that code is unchanged."
+    }
+  ]
+}
